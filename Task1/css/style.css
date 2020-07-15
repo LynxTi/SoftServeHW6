@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.container {
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    display: grid;
+    border: solid 1px black;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0;
+    
+}
+.endMenu{
+    display: none;
+    padding: 10px;
+    border: black 1px solid;
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% - 80px);
+}
+.tile{
+    width: 60px;
+    height: 60px;
+}
